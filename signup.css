@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    background-color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left h4 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    gap: 15px;
+        margin-left: 2vw;
+}
+
+.right button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #4a90e2;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.right button:hover {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+.right .sign {
+    background-color: #f0f2f5;
+    color: #4a90e2;
+    border: 2px solid #4a90e2;
+}
+
+.right .sign:hover {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+.container {
+    width: 50vw;
+    height: max-content;
+    border: 1px solid black;
+    margin-left: 25vw;
+    margin-top: 5vw;
+    border-radius: 10px;
+    padding: 2vw;
+    background-color: #4a90e2;
+}
+
+input {
+    display: block;
+    width: 20vw;
+    border-radius: 2px;
+    margin: 1vw;
+    margin-left: 15vw;
+    width: 15vw;
+    height: 2vw;
+    padding: 5px;
+}
+
+h1 {
+    margin-left: 17.5vw;
+}
+
+.sbmt {
+    display: block;
+    margin-left: 19vw;
+    padding: 1vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: green;
+}
+
+p {
+    margin: 1vw;
+    margin-left: 17vw;
+}
+
+a {
+    color: blue;
+}
+
+h6 {
+    margin-left: 17vw;
+}
+h5{
+    margin-left: 15vw;
+}
+    label{
+        margin-left: 15vw;
+        display: block  ;
+    }

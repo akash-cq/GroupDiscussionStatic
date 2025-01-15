@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: none;
+
+}
+
+header {
+    height: max-content;
+    border: 1px solid black;
+    /* background-color: black; */
+    text-align: center;
+    padding: 1vw;
+    overflow: hidden;
+    background-color: rgba(222, 104, 52, 0.9);
+    /* position: relative; */
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    /* border: 1px solid black; */
+    height: 800px;
+    overflow: hidden;
+
+}
+
+.leftSide {
+    border: 1px solid black;
+    width: 50%;
+    background-color: rgba(138, 117, 109, 0.9);
+}
+
+.headOfBtn,
+.resolve,
+.addResponse {
+    padding: 1vw;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headOfBtn {
+    background-color: rgba(56, 231, 126, 0.596);
+
+}
+
+/* .upper-head{
+    display: flex;
+    gap: 10vw;
+    
+}
+.upper-head h1{
+text-align: center;
+margin-left: 10vw;
+} */
+.addResponse {
+    padding: 10px;
+    height: max-content;
+}
+
+.resolve {
+    margin-left: 43vw;
+
+}
+
+.rightSide {
+    border: 1px solid black;
+    width: 50%;
+    padding: 1vw;
+    background-color: rgba(56, 231, 126, 0.596);
+
+}
+
+.hide,
+.hide1,
+.hide2 {
+    display: none;
+}
+
+#formBtn {
+    padding: 1vw;
+    border: 1px solid black;
+    border-radius: 10vw;
+    margin: 1vw;
+    cursor: pointer;
+}
+
+/* i{
+    padding: 1vw;
+    border: 1px solid black;
+    border-radius:10vw;
+    margin: 1vw;   
+} */
+i>p {
+    display: inline;
+    color: black;
+    font-size: 12px;
+
+
+}
+
+#search {
+    border: 1px solid black;
+    border-radius: 1vw;
+    /* padding: 5px; */
+    width: 20vw;
+}
+
+.rightSide h1,
+.rightSide p {
+    padding: 1vw;
+}
+
+.sub {
+    display: block;
+    margin: 1vw;
+    padding: 1vw;
+    width: 20vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+textarea {
+    margin: 1vw;
+    border: none;
+    border: 2px solid black;
+    width: auto;
+    background-color: rgb(169, 102, 73);
+
+}
+
+.question-list {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px 5px 1vw 5px;
+    background-color: rgba(182, 132, 111, 0.8);
+    overflow-y: auto;
+    height: 120px;
+    width: 40vw;
+
+
+}
+.bottom-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw;
+    gap: 1vw;
+    height: max-content;
+}
+.dis {
+    text-overflow: clip;
+    overflow-y: auto;
+    width: 80%;
+}
+
+.question-list h1 {
+    text-align: center;
+    width: 90%;
+}
+
+.upper-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-heart {
+    margin: 1vw;
+    cursor: pointer;
+}
+
+.dis,
+.question-list h1 {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+
+
+.date {
+    width: 20%;
+
+}
+
+::-webkit-scrollbar {
+
+    display: none;
+}
+
+.sbmt {
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+button {
+    cursor: pointer;
+    background-color: rgba(222, 104, 52, 0.5);
+}
+
+button:hover {
+    background-color: rgb(222, 104, 52);
+}
+
+.resolve:active {
+    background-color: rgba(56, 231, 126, 0.596);
+}
+
+.alert {
+    background-color: rgba(239, 239, 3, 0.673);
+    opacity: 1;
+    width: 30vw;
+    padding: 1vw;
+    border-radius: 10px;
+    margin: 5px;
+    position: absolute;
+    margin-left: 60%;
+    display: none;
+    position: fixed;
+
+}
+
+.list {
+    /* border: 1px solid black; */
+    margin: 1vw;
+    overflow-x: auto;
+    height: 660px;
+}
+
+.question,
+.response-list {
+    border: 1px solid black;
+    background-color: rgb(222, 104, 52);
+    border-radius: 10px;
+    margin-bottom: 1vw;
+
+}
+
+.response-list {
+    height: 12vw;
+    overflow-y: auto;
+
+}
+
+.response-list::-webkit-scrollbar {
+    display: none;
+}
+
+.response-show {
+    border: 1px solid black;
+    margin: 1vw;
+    border-radius: 10px;
+    background-color: rgba(56, 231, 126, 0.596);
+}
+
+::placeholder {
+    color: black;
+}
+
+.react {
+    margin: 1vw;
+    width: 7vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.fa-thumbs-up,
+.fa-thumbs-down {
+    padding: 7px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(182, 88, 34);
+}
+
+/* .fa-thumbs-down{
+    margin-top: 3px;
+} */

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left"><h4>LOGO</h4></div>
+      <div class="right">
+        <button>SignUp</button>
+        <button class="sign">SignIn</button>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Registration</h1>
+        <label for="name">UserName</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+        <label for="email">email Id</label>
+        <input type="email" id="email" placeholder="Enter you email" required />
+        <label for="pass">Password</label>
+        <input
+          type="password"
+          placeholder="Enter your passsword"
+          id="pass"
+          minlength="8"
+          required
+        />
+        <h5 class="passmsg"></h5>
+        <button class="sbmt">Register Now</button>
+        <p>Already a member ? <a>Sign In</a></p>
+        <h6>
+          By Signing up to create an account i accept<br />company's
+          <a>Term of Use and Privacy Policy</a>
+        </h6>
+      </div>
+    </main>
+    <script src="signup.js"></script>
+  </body>
+</html>
