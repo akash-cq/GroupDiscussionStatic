@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discussion Portal</title>
+    <link rel="stylesheet" href="discuss.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="Screenshot 2024-08-04 205945.png" />
+  </head>
+  <body>
+    <div class="alert alert-warning" role="alert">
+
+    </div>
+    <header>
+      <h1>Discussion Portal</h1>
+    </header>
+    <main>
+      <div class="leftSide">
+        <div class="headOfBtn">
+          <button id="formBtn">
+            <i class="fa-solid fa-xl fa-plus">
+              <!-- <p class="enable">New Question form</p> -->
+            </i>
+          </button>
+          <input type="search" id="search" placeholder="  search question..." />
+        </div>
+        <div class="list"></div>
+      </div>
+      <div class="rightSide">
+        <div class="section-1 hide">
+          <h1>Welcome To Discussion Portal !</h1>
+          <p class="Input-info">Enter a Subject and question to get started</p>
+          <input
+            type="text"
+            id="Subject"
+            class="sub"
+            placeholder="Enter Subject"
+            required
+          />
+          <textarea
+            id="discription"
+            placeholder="Enter question..."
+            rows="20"
+            cols="100"
+            required
+          ></textarea>
+          <button type="submit" class="sbmt">Submit</button>
+        </div>
+        <section class="response hide1">
+          <h2>Question</h2>
+          <div class="question"></div>
+          <button class="resolve">Resolve</button>
+          <h2>Responses</h2>
+          <div class="response-list hide2"></div>
+          <h1>Add Response</h1>
+          <label for="name">
+            Name:
+            <input type="text" class="name" placeholder="Your Name" />
+            <textarea
+              id="answer"
+              placeholder="Your answer..."
+              rows="10"
+              cols="80"
+              required
+            ></textarea>
+          </label>
+          <input type="submit" class="addResponse" />
+        </section>
+      </div>
+    </main>
+    <script src="discuss.js"></script>
+  </body>
+</html>
